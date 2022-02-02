@@ -343,6 +343,15 @@ img{
     transition: .3s;
 }
 
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: #FFF;
+}
+
 .button--flex{
     display: inline-flex;
     align-items: center;
@@ -473,7 +482,70 @@ img{
     transform: rotate(180deg);
 }
 /*==================== QUALIFICATION ====================*/
+.qualification__tabs{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
 
+.qualification__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification__button:hover{
+    color:var(--first-color);
+}
+
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.qualification__line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+}
+.qualification [data-content]{
+    display: none;
+}
+
+.qualification__active[data-content]{
+    display: block;
+}
+
+/* .qualification__button.qualification__active{
+    color: var(--first-color);
+} */
 
 /*==================== SERVICES ====================*/
 
@@ -485,8 +557,33 @@ img{
 
 
 /*==================== PROJECT IN MIND ====================*/
+.project{
+    text-align: center;
+}
 
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
 
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color: #FFF;
+}
+
+.project__img{
+    width: 232px;
+    justify-self: center;
+}
 /*==================== TESTIMONIAL ====================*/
 
 
@@ -494,7 +591,56 @@ img{
 
 
 /*==================== FOOTER ====================*/
+.footer{
+    padding-top: 2rem;
+}
 
+.footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle{
+    font-size: var(--small-font-size);
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover{
+    color:var(--first-color-lighter);
+}
+
+.footer__social{
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover{
+    color:var(--first-color-lighter);
+}
+
+.footer__copy{
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-light);
+    margin-top: var(--mb-3);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+    color:#FFF;
+}
 
 /*========== SCROLL UP ==========*/
 
