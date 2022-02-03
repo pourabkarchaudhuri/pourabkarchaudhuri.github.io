@@ -27,7 +27,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -41,15 +41,17 @@
                 <i class="uil uil-file-alt nav__icon"></i> Skills
               </a>
             </li>
-            <!-- <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
+            <li class="nav__item">
+              <a href="#qualifications" class="nav__link">
+                <i class="uil uil-graduation-cap nav__icon"></i> Qualification
               </a>
-            </li> -->
+            </li>
           </ul>
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+            <!-- Theme change button -->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -119,7 +121,7 @@
             </div>
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Pourab</h1>
-              <h3 class="home__subtitle">Super Stack developer</h3>
+              <h3 class="home__subtitle">Super Stack Developer</h3>
               <p class="home__description">
                 High level experience in web design, common knowledge, producing
                 quality work
@@ -346,7 +348,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" id="qualifications">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 
@@ -588,7 +590,7 @@
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Pourab</h1>
-            <span class="footer__subtitle">Super Stack developer</span>
+            <span class="footer__subtitle">Super Stack Developer</span>
           </div>
 
           <ul class="footer__links">
@@ -600,6 +602,9 @@
             </li>
             <li>
                 <a href="#skills" class="footer__link">Skills</a>
+            </li>
+            <li>
+                <a href="#qualifications" class="footer__link">Qualification</a>
             </li>
           </ul>
 
@@ -631,7 +636,9 @@
       </div>
     </footer>
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     <!--==================== SWIPER JS ====================-->
     <script src=""></script>
 
