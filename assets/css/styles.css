@@ -497,6 +497,99 @@ img{
     width: 90%;
 }
 
+
+.skills__css{
+    width: 80%;
+}
+
+.skills__js{
+    width: 90%;
+}
+
+.skills__react{
+    width: 60%;
+}
+
+.skills__nodejs{
+    width: 90%;
+}
+
+.skills__python{
+    width: 90%;
+}
+
+.skills__go{
+    width: 60%;
+}
+
+.skills__cplusplus{
+    width: 40%;
+}
+
+.skills__nlp{
+    width: 80%;
+}
+
+.skills__chatbot{
+    width: 90%;
+}
+
+.skills__cv{
+    width: 70%;
+}
+
+.skills__datascience{
+    width: 40%;
+}
+
+.skills__aws{
+    width: 80%;
+}
+
+.skills__azure{
+    width: 90%;
+}
+
+.skills__heroku{
+    width: 90%;
+}
+
+.skills__openstack{
+    width: 30%;
+}
+
+.skills__jenkins{
+    width: 80%;
+}
+
+.skills__docker{
+    width: 90%;
+}
+
+.skills__kubernetes{
+    width: 40%;
+}
+
+.skills__github{
+    width: 90%;
+}
+
+.skills__threejs{
+    width: 60%;
+}
+
+.skills__webgl{
+    width: 60%;
+}
+
+.skills__vuforia{
+    width: 70%;
+}
+
+.skills__unity{
+    width: 40%;
+}
+
 .skills__close .skills__list{
     height: 0;
     overflow: hidden;
